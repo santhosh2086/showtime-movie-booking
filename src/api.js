@@ -1,5 +1,5 @@
 // Thin client for the Showtime API. In dev, Vite proxies /api to the Express server.
-const BASE = import.meta.env.VITE_API_URL || "/api";
+const BASE = "https://showtime-movie-booking.onrender.com/api";
 
 // The UI has no login, so each browser gets an anonymous id used to scope "My bookings".
 function clientId() {
