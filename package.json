@@ -1,0 +1,23 @@
+{
+  "name": "showtime",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Showtime \u2014 a demo movie & live event booking experience (browse, select seats, checkout), built with React.",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "preview": "vite preview --port 3000",
+    "server": "npm --prefix server run dev",
+    "server:install": "npm --prefix server install",
+    "seed": "npm --prefix server run seed"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
